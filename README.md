@@ -1,6 +1,5 @@
-## Tools ##
-This is the code for http://flinkbox.de
-
+## Notes ##
+Original code here: http://codepen.io/mttschltz/pen/KAhJI
 
 Simple local HTTP server:
 $ python -m SimpleHTTPServer
