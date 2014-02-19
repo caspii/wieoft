@@ -1,12 +1,21 @@
 @import "lesshat.less";
 
-.keyframes(~'pulse,0%{  background-color: black; text-color: grey} 20%{ background-color: white; text-color: black } ');
+.keyframes(~'pulse, 0%{  color: white} 30%{ color: #484244 } 100%{ color: #484244 } ');
 
-.animate {
+.animated-tile {
   .animation-name(pulse);
   .animation-iteration-count(infinite);
-  .animation-timing-function(ease-in-out);
+  .animation-timing-function(ease-out);
+  font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 22px;
+  color: #484244;
+  display: table;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 30px;
 }
+
 
 // Specific animation durations
 .deaths {
@@ -14,11 +23,11 @@
 }
 
 .births {
-  .animation-duration(4s);
+  .animation-duration(1s);
 }
 
 .catgifs {
-  .animation-duration(10s);
+  .animation-duration(2s);
 }
 
 .deaths2 {
@@ -26,7 +35,7 @@
 }
 
 .births2 {
-  .animation-duration(7s);
+  .animation-duration(4s);
 }
 
 .catgifs2 {
