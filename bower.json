@@ -3,6 +3,6 @@
   "private": true,
   "dependencies": {
     "modernizr": "~2.8.2",
-    "bootswatch-dist": "3.3.0-darkly"
+    "bootswatch-dist": "3.3.0-lumen"
   }
 }
