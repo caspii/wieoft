@@ -1,0 +1,290 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 40,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/wrede/repos/wieoft"
+	],
+	"file_history":
+	[
+		"/home/wrede/tmp/test3/app/styles/main.css",
+		"/home/wrede/tmp/test3/bower.json",
+		"/home/wrede/tmp/test3/app/index.html",
+		"/home/wrede/tmp/testproject/app/styles/_variables (1).scss",
+		"/home/wrede/tmp/testproject/.gitignore",
+		"/home/wrede/.profile",
+		"/home/wrede/repos/wieoft/css/main.css",
+		"/home/wrede/repos/wieoft/flinkbox.iml",
+		"/home/wrede/Dropbox/apps/insults/insults_en.txt",
+		"/home/wrede/Dropbox/apps/insults/insults_de.txt",
+		"/home/wrede/Dropbox/apps/insults/insults.txt",
+		"/home/wrede/Desktop/music.txt",
+		"/home/wrede/Desktop/2011-11-mustplay-torstrassen-party-6.txt",
+		"/home/wrede/Music/playlists/Party-Tunes.xspf",
+		"/home/wrede/Desktop/2011-02-papi.xspf",
+		"/home/wrede/Dropbox/apps/insults/insults_eng"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"autopre",
+			"  -webkit-animation-name: pulse;\n  -webkit-animation-iteration-count: infinite;\n  -webkit-animation-timing-function: ease-in-out;\n  -webkit-animation-duration: 1.3s;",
+			"-webkit-animation-iteration-count: infinite;",
+			"  -webkit-animation-name: pulse;",
+			"  -",
+			"-webkit-animation-name: pulse;",
+			"white",
+			"_bootswatch",
+			"%22",
+			"%3A",
+			"%21",
+			"%3F",
+			"%DF",
+			"%0D%0A",
+			"%E4",
+			".*#",
+			"#...#",
+			"'",
+			"\\'",
+			"'",
+			"/'",
+			"'",
+			"</creator>",
+			"<album>.*</album>",
+			"<title>",
+			"</title><creator>",
+			"<location>.*</location>",
+			"<duration>.*</duration>",
+			"<image>.*</image>",
+			"<duration>.*</duration>",
+			"</track><track>",
+			"&amp;",
+			"</creator>",
+			"<title>",
+			"<album>.*",
+			"</title><creator>",
+			"<image>.*</image>",
+			"<duration>.*</duration>",
+			"<location>.*</location>",
+			"</track><track>",
+			"'",
+			"sie ",
+			"\"",
+			"\",",
+			"Hammer",
+			"%F6",
+			"%FC",
+			"%2C",
+			"+",
+			"\\334"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\"",
+			":",
+			"",
+			"?",
+			"ß",
+			"",
+			"ä",
+			"",
+			"\n",
+			"\\'",
+			"/'",
+			"",
+			" -- ",
+			"",
+			"\n",
+			"",
+			"&",
+			"",
+			" -- ",
+			"",
+			"\n",
+			"\\'",
+			"",
+			"ö",
+			"ü",
+			",",
+			" ",
+			"Ü"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "wieoft.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 265.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
