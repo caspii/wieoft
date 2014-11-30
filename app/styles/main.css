@@ -1,3 +1,26 @@
+@keyframes pulse{ 
+  0%{ opacity: 1; } 
+  60%{ opacity: 0.3; } 
+  90%{ opacity: 0.3; } 
+  100%{  opacity: 1; }
+}
+
+
+
+.animated-tile {
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  display: table;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -61,29 +84,6 @@ body {
 
 .marketing p + h4 {
   margin-top: 28px;
-}
-
-
-@keyframes pulse{ 
-  0%{  color: white; } 
-  10%{ color: white; } 
-  100%{ color: #484244; } 
-}
-
-
-
-.animated-tile {
-  animation-name: pulse;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-duration: 1.3s;
-  font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px;
-  color: #484244;
-  display: table;
-  vertical-align: middle;
-  text-align: center;
-  padding-top: 30px;
 }
 
 
