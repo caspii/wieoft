@@ -1,0 +1,8 @@
+{
+  "name": "test3",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.8.2",
+    "bootswatch-dist": "3.3.0-darkly"
+  }
+}
