@@ -1,11 +1,14 @@
-console.log('\'Allo \'Allo!');
-
 function doAnimate(el) {
-	setInterval(function() {animate(el)},1000);
-} 
-
-function animate(el) {
-	el.toggleClass("pulse");
-}
-
-doAnimate($(".animated-tile"));
+		delay = el.data('delay');
+		console.log("Delay = " + delay);
+		// Add delay to el
+		setInterval(
+			function() {
+				el.toggleClass("pulse");
+			},delay);	
+};
+	
+	
+$(".animated-tile").each(function() { 
+	doAnimate($(this))
+});
