@@ -2,16 +2,18 @@
   0%{ 
     opacity: 1;
     transform: scale(1.05);
+    color: black;
   }
 
   100%{  
-    opacity: 0.3;
-    transform: scale(1) }
+    opacity: 0.4;
+    transform: scale(1)
+    color: #555555 }
 }
 
   .pulse {
   animation-name: pulse;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
   animation-duration: 0.8s; 
 
 }
@@ -19,14 +21,14 @@
 .animated-tile {
   font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
-  display: table;
-  opacity: 0.3;
+  text-align: center;
+  opacity: 0.4;
 
   display: flex;
-  justify-content:center;
-  align-content:center;
-  flex-direction:column; /* column | row */
-  height:140px;  
+  justify-content: center;
+  align-content: center;
+  flex-direction: column; /* column | row */
+  height:140px;
 }
 
 .browsehappy {
