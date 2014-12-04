@@ -1,6 +1,8 @@
-- Fix Gutter around Tiles. No rounded corners
 - Get Animations to look good
-- Remove jumbotron and increase size of header text
-- Add share buttons
+- 5 items per row
+- Add correct data
+- Add share buttons http://www.sitepoint.com/10-social-sharing-jquery-plugins-missed/
 - Add Google Analytics
-- Research data
+- Fix responsive design (colums and text size)
+- Add styling
+- Release
