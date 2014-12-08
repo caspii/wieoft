@@ -342,7 +342,19 @@ module.exports = function (grunt) {
         'imagemin',
         'svgmin'
       ]
+    },
+
+    // Deploy dist folder to production
+    shell: {
+      options: {
+        stdout: true,
+        stderr: true
+      },
+      deploy: {
+        command: 'scp -r dist/ casparwre.de:~/casparwre.de/'
+      }
     }
+
   });
 
 
@@ -397,7 +409,8 @@ module.exports = function (grunt) {
     'modernizr',
     'rev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'shell:deploy'
   ]);
 
   grunt.registerTask('default', [
