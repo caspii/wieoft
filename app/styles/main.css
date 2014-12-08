@@ -21,18 +21,17 @@
 /** End animation **/
 
 .animated-tile {
-  font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
-  opacity: 0.4;
+  opacity: 0.6;
+  background-color: white;
 
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column; /* column | row */
-  height:140px;
+  height:100px;
 }
-
 
 /* Bootstrap 5 column */
 .col-xs-5ths,
@@ -50,11 +49,12 @@
     float: left;
 }
 
-
 /* Space out content a bit */
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: 'Merriweather', serif;
+  background-image: url('/images/congruent_pentagon.png');
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -74,7 +74,9 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;  
+  background: rgba(255, 255, 255, .5);
+
 }
 
 .jumbotron .btn {
@@ -104,7 +106,7 @@ body {
 
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
-    border-bottom: 0;
+    /*border-bottom: 0;*/
   }
 }
 
