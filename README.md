@@ -1,7 +1,8 @@
 # Setup
 1.  npm install grunt --save-dev
 2.  npm install
-3.  
+3.  bower install
+4.  grunt serve
 
 ## Notes ##
 Original code here: http://codepen.io/mttschltz/pen/KAhJI
