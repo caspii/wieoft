@@ -2,27 +2,25 @@ function doAnimate(el) {
 
 		frequency = el.data('frequency'); 	// Frequency per minute
 		
+		total_duration = (60/frequency)*1000;
+		animation_duration = 800;
 
-		if ((60/frequency*1000) > 800) {
-			// Event happens more than once a second, animation duration length must shortened
-			duration = (60/frequency)*1000 / 2;
-			delay = duration;
-		} else {
-			duration = 800;
-			delay = (60/frequency)*1000 - duration;
-
-		}
+		if (total_duration < 800) {
+			// total_duration too short, animation must be shortened too.
+			animation_duration = total_duration / 2;
+			total_duration = animation_duration;
+		} 
 
 		console.log(el.html() + 
-			' Delay = ' + delay +
-			' duration = ' + duration +
-			' total = ' + (duration + delay));
-		// Add delay to el
+			' total_duration = ' + total_duration +
+			' animation_duration = ' + animation_duration);
+
+		// Add total_duration to el
 		setInterval(
 			function() {
-				el.css('animation-duration', duration + 'ms')
+				el.css('animation-duration', animation_duration + 'ms')
 				el.toggleClass('pulse');
-			},delay);	
+			},total_duration);	
 };
 	
 	
