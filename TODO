@@ -3,7 +3,8 @@
 - Add Google Analytics
 - Fix responsive design (colums and text size)
 - Add styling
- http://www.google.com/fonts/specimen/Merriweather
- Sublte background
+    http://www.google.com/fonts/specimen/Merriweather
+    Subtle background
+- Fix: https://developers.google.com/speed/pagespeed/insights/?url=casparwre.de%2Fdist&tab=mobile
 - Register Domain
 - Release
