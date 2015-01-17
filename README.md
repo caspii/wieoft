@@ -4,6 +4,11 @@
 3.  bower install
 4.  grunt serve
 
+
+## Bower Notes
+to search: bower search jquery.pulse
+to install: bower install --save jquery-ui
+
 ## Notes ##
 Original code here: http://codepen.io/mttschltz/pen/KAhJI
 
