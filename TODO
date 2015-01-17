@@ -1,11 +1,9 @@
-- Checkout this: http://de.globometer.com/
-- Add correct data
+- Fix timings
+- Complete data. Use this: http://de.globometer.com/
 - Add share buttons http://www.sitepoint.com/10-social-sharing-jquery-plugins-missed/
+- Fix deployment script / rule
 - Add Google Analytics
-- Fix responsive design (colums and text size)
-- Add styling
-    http://www.google.com/fonts/specimen/Merriweather
-    Subtle background
 - Fix: https://developers.google.com/speed/pagespeed/insights/?url=casparwre.de%2Fdist&tab=mobile
 - Register Domain
+- Add to AWS: http://awsdocs.s3.amazonaws.com/gettingstarted/latest/awsgsg-swh.pdf
 - Release
