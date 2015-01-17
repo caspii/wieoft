@@ -1,29 +1,36 @@
+// Properties for the pulse
+var properties = {
+       opacity:1
+	};
+
 function doAnimate(el) {
 
-		frequency = el.data('frequency'); 	// Frequency per minute
-		
-		total_duration = (60/frequency)*1000;
-		animation_duration = 100;
+		var animationDuration = 200;				// ms		
+		var frequency = el.data('frequency'); 		// Frequency per minute
+		var totalDuration = (60/frequency)*1000; 	// ms
+		var interval = totalDuration - animationDuration;
 
-		if (total_duration < 800) {
-			// total_duration too short, animation must be shortened too.
-			animation_duration = total_duration / 2;
-			total_duration = animation_duration;
+		if (interval < 1 ) {
+			// totalDuration too short, animation must be shortened too.
+			animationDuration = totalDuration / 2;
+			interval = totalDuration / 2;
 		} 
 
 		console.log(el.html() + 
-			' animation_duration = ' + animation_duration +
-			' total_duration = ' + total_duration );
+			' animationDuration = ' + animationDuration +
+			' interval = ' + interval +
+			' totalDuration = ' + totalDuration
+			);
 
-		// Add total_duration to el
-		setInterval(
-			function() {
-				el.css('animation-duration', animation_duration + 'ms');
-				el.toggleClass('pulse');
-			},total_duration);
-};
+		el.pulse(properties,
+			{ 
+				duration: animationDuration, 
+				interval : interval,
+				pulses:-1
+			});
+}
 	
 	
 $(".animated-tile").each(function() { 
-	doAnimate($(this))
+	doAnimate($(this));
 });

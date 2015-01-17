@@ -4,6 +4,7 @@
   "dependencies": {
     "modernizr": "~2.8.2",
     "bootswatch-dist": "3.3.0-lumen",
-    "merriweather-fontface": "*"
+    "merriweather-fontface": "*",
+    "jquery.pulse.js": "*"
   }
 }

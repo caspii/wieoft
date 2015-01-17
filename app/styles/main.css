@@ -4,8 +4,7 @@
 @keyframes pulse{ 
   0%{ 
     opacity: 1;
-    transform: scale(1.05);
-    
+ 
   }
 
   100%{  
@@ -18,6 +17,7 @@
   .pulse {
   animation-name: pulse;
   animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 /** End animation **/
 
