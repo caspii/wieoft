@@ -2,7 +2,7 @@
 var properties = {
     opacity:1,
     color: "white",
-    backgroundColor: "background:rgba(255,255,255, 0.1);"
+    backgroundColor: "background:rgba(255,255,255, 0.3);"
 	};
 
 function doAnimate(el) {

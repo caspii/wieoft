@@ -2,7 +2,7 @@
 - Fix deployment script / rule
 - Add Google Analytics
 - Fix: https://developers.google.com/speed/pagespeed/insights/?url=casparwre.de%2Fdist&tab=mobile
-- Add Impressum, link to Github
+- Add Favicon
 - Register Domain
 - Add correct URL to RRSSB buttons
 - Add to AWS: http://awsdocs.s3.amazonaws.com/gettingstarted/latest/awsgsg-swh.pdf
