@@ -5,6 +5,7 @@
     "modernizr": "~2.8.2",
     "bootswatch-dist": "3.3.0-lumen",
     "merriweather-fontface": "*",
-    "jquery.pulse.js": "*"
+    "jquery.pulse.js": "*",
+    "jquery-ui": "~1.11.2"
   }
 }
