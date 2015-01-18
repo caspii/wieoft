@@ -23,5 +23,7 @@ http://www.fnp.de/nachrichten/wirtschaft/Jeder-Deutsche-kauft-im-Schnitt-fuenf-n
 ### Kondome
 In Deutschland werden pro Minute 342 Kondome verbraucht. => In Berlin 342*(3,5/82)
 
+### Hunde
+250.000 Hunde in Berlin, 2 Mal koten pro Tag => 500.000 pro Tag => 347 Pro Minute
 
 
