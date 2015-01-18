@@ -18,11 +18,11 @@ function doAnimate(el) {
 			interval = totalDuration / 2;
 		} 
 
-		console.log(el.html() + 
-			' animationDuration = ' + animationDuration +
-			' interval = ' + interval +
-			' totalDuration = ' + totalDuration
-			);
+//		console.log(el.html() + 
+//			' animationDuration = ' + animationDuration +
+//			' interval = ' + interval +
+//			' totalDuration = ' + totalDuration
+//			);
 
 		el.pulse(properties,
 			{ 
