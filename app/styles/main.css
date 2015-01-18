@@ -1,28 +1,5 @@
-
-/** Begin animation **/
-
-@keyframes pulse{ 
-  0%{ 
-    opacity: 1;
- 
-  }
-
-  100%{  
-    opacity: 0.6;
-    transform: scale(1)
-  
-  }
-}
-
-  .pulse {
-  animation-name: pulse;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-/** End animation **/
-
 .animated-tile {
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
   opacity: 0.6;
   background-color: white;
