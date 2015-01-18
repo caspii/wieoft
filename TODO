@@ -1,4 +1,5 @@
-- Fix CSS, find Style. Improve animation performance
+- Fix CSS, find Style. 
+- Remove Linked in
 - Reduce number of columns in responsive view
 - Fix deployment script / rule
 - Add Google Analytics

@@ -12,9 +12,10 @@ to install: bower install --save jquery-ui
 ## Notes ##
 Original code here: http://codepen.io/mttschltz/pen/KAhJI
 
-## Data
-http://www.explainxkcd.com/wiki/index.php/1331:_Frequency
-Minutes in a year: 525949
+## Data Sources
+* http://www.explainxkcd.com/wiki/index.php/1331:_Frequency
+* http://en.globometer.com/
+
 
 ### Schuhe: 
 http://www.fnp.de/nachrichten/wirtschaft/Jeder-Deutsche-kauft-im-Schnitt-fuenf-nbsp-Paar-Schuhe-im-Jahr;art686,141202
@@ -25,5 +26,6 @@ In Deutschland werden pro Minute 342 Kondome verbraucht. => In Berlin 342*(3,5/8
 
 ### Hunde
 250.000 Hunde in Berlin, 2 Mal koten pro Tag => 500.000 pro Tag => 347 Pro Minute
+
 
 

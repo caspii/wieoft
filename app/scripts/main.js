@@ -1,13 +1,13 @@
 // Properties for the pulse
 var properties = {
     opacity:1,
-    color: "blue",
-   	size: 1.1
+    color: "white",
+    backgroundColor: "background:rgba(255,255,255, 0.1);"
 	};
 
 function doAnimate(el) {
 
-		var animationDuration = 300;				// ms		
+		var animationDuration = 500;				// ms		
 		var frequency = el.data('frequency'); 		// Frequency per minute
 		var totalDuration = (60/frequency)*1000; 	// ms
 		var interval = totalDuration - animationDuration;
