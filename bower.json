@@ -6,6 +6,7 @@
     "bootswatch-dist": "3.3.0-lumen",
     "merriweather-fontface": "*",
     "jquery.pulse.js": "*",
-    "jquery-ui": "~1.11.2"
+    "jquery-ui": "~1.11.2",
+    "RRSSB": "~1.6.5"
   }
 }
