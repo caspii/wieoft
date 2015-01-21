@@ -2,11 +2,19 @@
 var properties = {
     opacity:1,
     color: "white",
-    backgroundColor: "background:rgba(255,255,255, 0.3);"
-	};
+	backgroundColor: "background:rgba(255,255,255, 0.3);"
+};
+
+// On devices more than 788px wide, add expensive background animation to tiles
+var windowWidth = window.screen.width < window.outerWidth ? 
+window.screen.width : window.outerWidth;
+if ( windowWidth < 768) {
+	properties.backgroundColor = "";
+} 
+
 
 function doAnimate(el) {
-
+	
 		var animationDuration = 500;				// ms		
 		var frequency = el.data('frequency'); 		// Frequency per minute
 		var totalDuration = (60/frequency)*1000; 	// ms
