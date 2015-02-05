@@ -9,6 +9,7 @@
   align-content: center;
   flex-direction: column; /* column | row */
   height: 120px;
+  border-radius: 5px;
 }
 
 /* Space out content a bit */

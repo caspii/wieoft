@@ -5,7 +5,7 @@ var properties = {
 	backgroundColor: "background:rgba(255,255,255, 0.3);"
 };
 
-// On devices more than 788px wide, add expensive background animation to tiles
+// On devices more than 788px wide, remove expensive background animation to tiles
 var windowWidth = window.screen.width < window.outerWidth ? 
 window.screen.width : window.outerWidth;
 if ( windowWidth < 768) {
@@ -14,7 +14,7 @@ if ( windowWidth < 768) {
 
 
 function doAnimate(el) {
-	
+
 		var animationDuration = 500;				// ms		
 		var frequency = el.data('frequency'); 		// Frequency per minute
 		var totalDuration = (60/frequency)*1000; 	// ms
@@ -25,12 +25,6 @@ function doAnimate(el) {
 			animationDuration = totalDuration / 2;
 			interval = totalDuration / 2;
 		} 
-
-//		console.log(el.html() + 
-//			' animationDuration = ' + animationDuration +
-//			' interval = ' + interval +
-//			' totalDuration = ' + totalDuration
-//			);
 
 		el.pulse(properties,
 			{ 
