@@ -2,6 +2,7 @@
 - Add Facebook meta tags
 - Fix: https://developers.google.com/speed/pagespeed/insights/?url=casparwre.de%2Fdist&tab=mobile
 - Add Favicon
-- Add to AWS: http://awsdocs.s3.amazonaws.com/gettingstarted/latest/awsgsg-swh.pdf
-- Fix deployment script / rule
 - Release
+
+Later:
+- Add to AWS: http://awsdocs.s3.amazonaws.com/gettingstarted/latest/awsgsg-swh.pdf
