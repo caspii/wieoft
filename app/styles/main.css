@@ -1,9 +1,9 @@
 .animated-tile {
   font-size: 20px;
   text-align: center;
-  color: rgb(150, 150, 150);
-  background-color: rgba(10, 10, 10, 0.1) ;
-  text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.5);
+  color: white;
+  background-color: rgba(128, 128, 128, 0.24) ;
+  /*text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.5);*/
   display: flex;
   justify-content: center;
   align-content: center;
