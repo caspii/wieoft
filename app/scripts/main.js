@@ -1,24 +1,29 @@
 
 
 function doAnimate(el) {
-	var animationDuration = 500;				// ms		
+	var pulseLength = 800 						// ms
 	var frequency = el.data('frequency'); 		// Frequency per minute
 	var totalDuration = (60/frequency)*1000; 	// ms
-	var interval = totalDuration - animationDuration;
+	console.log("totalDuration = " + totalDuration/1000);
+	
+	el.css('animation-duration', totalDuration + 'ms');
+	if (totalDuration < 1000) {
+		el.css('animation-name','pulse-1s');	
+	} else if (totalDuration < 2000) {
+		el.css('animation-name','pulse-2s');	
+	} else if (totalDuration < 4000) {
+		el.css('animation-name','pulse-4s');	
+	} else if (totalDuration < 8000) {
+		el.css('animation-name','pulse-8s');
+	} else if (totalDuration < 16000) {
+		el.css('animation-name','pulse-16s');
+	} else if (totalDuration < 32000) {
+		el.css('animation-name','pulse-32s');
+	} else {
+		el.css('animation-name','pulse-64s');
+	}		
+	
 
-
-	$.keyframe.define([{
-    	name: 'pulse',
-    		'0%': {'opacity': '0.3'},
-    		'30%': {'opacity': '1'},
-    		'100%': {'opacity': '0.3'}
-	}]);
-
-	$(el).playKeyframe({
-    	name: 'pulse',
-    	duration: totalDuration + "ms",
-    	iterationCount: 'infinite',
-    });
 }
 	
 	

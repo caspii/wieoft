@@ -1,4 +1,47 @@
+@keyframes pulse-1s {
+   0%{ opacity: 1; } 
+   100%{ opacity: 0.3; } 
+}
+
+@keyframes pulse-2s {
+   0%{ opacity: 1; } 
+   50%{ opacity: 0.3; }
+   100%{ opacity: 0.3;  } 
+}
+
+@keyframes pulse-4s {
+   0%{ opacity: 1; } 
+   25%{ opacity: 0.3; }
+   100%{ opacity: 0.3;  } 
+}
+
+@keyframes pulse-8s {
+   0%{ opacity: 1; } 
+   12.5%{ opacity: 0.3; }
+   100%{ opacity: 0.3;  } 
+}
+
+@keyframes pulse-16s {
+   0%{ opacity: 1; } 
+   6%{ opacity: 0.3; }
+   100%{ opacity: 0.3;  } 
+}
+
+@keyframes pulse-32s {
+   0%{ opacity: 1; } 
+   3%{ opacity: 0.3; }
+   100%{ opacity: 0.3;  } 
+}
+
+@keyframes pulse-64s {
+   0%{ opacity: 1; } 
+   1%{ opacity: 0.3; }
+   100%{ opacity: 0.3;  } 
+}
+
 .animated-tile {
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;  
   font-size: 20px;
   text-align: center;
   color: white;
