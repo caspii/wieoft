@@ -4,7 +4,6 @@
   "dependencies": {
     "modernizr": "~2.8.2",
     "bootswatch-dist": "3.3.0-lumen",
-    "RRSSB": "~1.6.5",
-    "jQueryKeyframes": "~0.0.8"
+    "RRSSB": "~1.6.5"
   }
 }
