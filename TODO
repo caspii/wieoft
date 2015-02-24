@@ -1,10 +1,8 @@
-- Add correct URL to RRSSB buttons
-- Add Facebook meta tags
 - Fix: https://developers.google.com/speed/pagespeed/insights/?url=casparwre.de%2Fdist&tab=mobile
 - Add Favicon
 - Release
-- Ask to be mentioned on https://github.com/jQueryKeyframes/jQuery.Keyframes
+
 
 Later:
-- Hmm? http://hugogiraudel.com/2014/07/16/automating-css-animations-with-sass/
 - Add to AWS: http://awsdocs.s3.amazonaws.com/gettingstarted/latest/awsgsg-swh.pdf
+- Add an on tap event
