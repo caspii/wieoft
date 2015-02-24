@@ -19,9 +19,9 @@ function doAnimate(el) {
 		el.css('animation-name','pulse-16s');
 	} else if (totalDuration < 32000) {
 		el.css('animation-name','pulse-32s');
-	} else {
+	} else if (totalDuration < 64000){
 		el.css('animation-name','pulse-64s');
-	}		
+	} // There is no default, therefor some tiles don't pulse at all!		
 	
 
 }

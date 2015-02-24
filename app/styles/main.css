@@ -41,7 +41,8 @@
 
 .animated-tile {
   animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;  
+  animation-iteration-count: infinite;
+  opacity: 0.3;  
   font-size: 20px;
   text-align: center;
   color: white;
