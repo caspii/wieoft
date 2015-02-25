@@ -4,7 +4,7 @@ function doAnimate(el) {
 	var pulseLength = 800 						// ms
 	var frequency = el.data('frequency'); 		// Frequency per minute
 	var totalDuration = (60/frequency)*1000; 	// ms
-	console.log("totalDuration = " + totalDuration/1000);
+	//console.log("totalDuration = " + totalDuration/1000);
 	
 	el.css('animation-duration', totalDuration + 'ms');
 	if (totalDuration < 1000) {
