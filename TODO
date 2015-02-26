@@ -1,7 +1,0 @@
-- Fix: https://developers.google.com/speed/pagespeed/insights/?url=casparwre.de%2Fdist&tab=mobile
-- Release
-
-
-Later:
-- Add to AWS: http://awsdocs.s3.amazonaws.com/gettingstarted/latest/awsgsg-swh.pdf
-- Add an on tap event
