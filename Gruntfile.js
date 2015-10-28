@@ -351,7 +351,8 @@ module.exports = function (grunt) {
         stderr: true
       },
       deploy: {
-        command: 'scp -r dist/ casparwre.de:~/websites/wie-oft.com/'
+        // command: 'scp -r dist/* casparwre.de:~/websites/wie-oft.com/'
+        command: './deploy-to-s3'
       }
     }
 
