@@ -2,10 +2,10 @@
   "name": "test3",
   "private": true,
   "dependencies": {
-    "modernizr": "~2.8.2",
     "bootswatch-dist": "3.3.0-lumen",
     "RRSSB": "~1.6.5",
-    "sass-bootstrap-glyphicons": "~1.0.0",
-    "bootstrap": "~3.3.2"
+    "sass-bootstrap-glyphicons": "^1.0.0",
+    "bootstrap": "~3.3.2",
+    "rrssb": "RRSSB#^1.14.0"
   }
 }
