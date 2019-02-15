@@ -61,9 +61,9 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: 'Lato', sans-serif;
-/*  background: url('../images/check.jpg') no-repeat center center fixed;
-  background-size: cover;*/
-  background: url('../images/leather.jpg');
+  background: url('../images/grey_wash_wall.png');
+
+  /* background: url('../images/leather.jpg'); */
 }
 
 
