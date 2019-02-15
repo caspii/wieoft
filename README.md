@@ -1,7 +1,9 @@
 # Setup
 
-3.  bower install
-4.  grunt serve
+3. bower install
+1. That's all
+
+This is the repo for https://caspii.github.io/wieoft/
 
 
 ## Notes ##
